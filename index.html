@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title> Crepas Santa Apolonia </title>
+</head>
+
+<body>
+    <header>
+        <h1> Crepas Santa Apolonia</h1>
+        <h3> Desde 1964 </h3>
+    </header>
+    <section class="description">
+        <h3>Descripcion</h3>
+        <form action="crepas.php" method="get" class="form" >
+            <label for="tipo">Tipo</label>
+            <select name="tipo">
+                <option id="1" >Salado</option>
+                <option id="2">Dulce</option>
+            </select>
+            <label for="sabor">Sabor</label>
+            <select name="sabor">
+                <option>Nutella</option>
+                <option>Jamon</option>
+                <option>Queso Philadelfia</option>
+                <option>Galleta de Oreo</option>
+                <option>Manchego con Champiñones</option>
+                <option>Manchejo con Jamon</option>
+                <option>Hawaiana</option>
+                </select>
+                <label for="cantidad">Cantidad</label>
+                <select name="cantidad">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+                <input type="submit" name="enviar" value="Calcular">
+        </form>
+    </section>
+    <section class="ingredientesdul">
+        <h3>Ingredientes dulces</h3>
+        <label><input type="checkbox" id="d1" class="tam"><img src="imagenes/fresa.png"></label>
+        <label><input type="checkbox" id="d2" class="tam"><img src="imagenes/durazno.webp"></label>
+        <label><input type="checkbox" id="d3" class="tam"><img src="imagenes/platano.png"></label>
+        <label><input type="checkbox" id="d4" class="tam"><img src="imagenes/logochesse.png"></label>
+        <label><input type="checkbox" id="d5" class="tam"><img src="imagenes/frutos.png"></label>
+        <label><input type="checkbox" id="d6" class="tam"><img src="imagenes/chocolate.png"></label>
+    </section>
+    <section class="ingredientessal">
+        <h3>Ingredientes Salados</h3>
+        <label><input type="checkbox" id="s1" class="tam"><img src="imagenes/manchego.png"></label>
+        <label><input type="checkbox" id="s2" class="tam"><img src="imagenes/pepperoni.png"></label>
+        <label><input type="checkbox" id="s3" class="tam"><img src="imagenes/oaxaca.webp"></label>
+        <label><input type="checkbox" id="s4" class="tam"><img src="imagenes/pollo.png"></label>
+        <label><input type="checkbox" id="s5" class="tam"><img src="imagenes/jamon.png"></label>
+        <label><input type="checkbox" id="s6" class="tam"><img src="imagenes/pure-de-tomate.jpg"></label>
+    </section>
+    <section class="btn">
+        <h3>Calcular Precio</h3>
+        <input type="button" placeholder="Calcular" id="tickect">
+    </section>
+</body>
+
+</html>
